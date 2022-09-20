@@ -1,0 +1,230 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Container */
+.container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* Anchor Decoration */
+a {
+  text-decoration: none;
+}
+
+/* Image Adjust */
+.full-width {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* Positions */
+.position-absolute {
+  position: absolute;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-fixed {
+  position: fixed;
+}
+
+.position-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.z-index-100 {
+  z-index: 100;
+}
+
+.z-index-50 {
+  z-index: 50;
+}
+
+.z-index-10 {
+  z-index: 10;
+}
+
+.z-index-1 {
+  z-index: 1;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  border: none;
+  outline: none;
+  background: none;
+  padding: 0.35rem 1rem;
+  border-radius: 0.2rem;
+  box-sizing: border-box;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn-primary {
+  color: purple;
+  border: 1px solid purple;
+}
+
+.btn-secondary {
+  color: white;
+  background-color: purple;
+  border: 1px solid purple;
+}
+
+.header {
+  text-align: center;
+  background-color: teal;
+  margin: 0.5rem 1rem;
+  padding: 0.5rem;
+  border-radius: 30px;
+}
+.header h1 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: whitesmoke;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1rem;
+}
+
+.box-70 {
+  border: 2px solid blue;
+  width: 65%;
+}
+
+.box-30 {
+  border: 2px solid coral;
+  width: 30%;
+}
+
+.img {
+  width: 200px;
+  border-radius: 50%;
+  height: 200px;
+}
+
+.list-people {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 1rem;
+}
+.list-people li {
+  width: 30%;
+  box-shadow: 0px 0px 8px 4px cornflowerblue;
+  margin: 0.4rem;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 0.3rem;
+}
+.list-people p {
+  font-size: 1.2rem;
+}
+.list-people a {
+  background-color: coral;
+  padding: 0.3rem 0.7rem;
+  font-size: 1.2rem;
+  color: whitesmoke;
+}
+
+.name {
+  font-size: 1.4rem;
+  margin: 0.5rem 0;
+}
+
+.book-img {
+  width: 40%;
+  height: 40%;
+}
+
+.list {
+  list-style: none;
+}
+.list h2 {
+  font-size: 1.3rem;
+  margin: 0.4rem 0;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.nav-list {
+  font-size: 1.4rem;
+  margin: 0.3rem;
+  font-weight: 500;
+}
+
+.single-art-h2 {
+  font-size: 1.3rem;
+  margin: 0.3rem;
+}
+
+.single-art-p {
+  font-size: 1.1rem;
+}/*# sourceMappingURL=style.css.map */
